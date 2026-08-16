@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Ambientes virtuais (o deste projeto fica em C:\envs, fora daqui)
+.venv/
+venv/
+env/
+
+# Segredos do Streamlit — nunca versionar
+.streamlit/secrets.toml
+
+# Documento pessoal de acompanhamento — fica so no disco, nao vai para o repo
+DOCUMENTACAO.md
+
+# Ferramentas de desenvolvimento — config local, nao do app
+# (o launch.json do Claude Code tem o caminho do venv desta maquina dentro)
+.claude/
+
+# Sistema operacional / editores
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
